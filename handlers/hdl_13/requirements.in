@@ -1,0 +1,5 @@
+awscli
+google-auth-oauthlib
+jmespath
+boto3
+matplotlib

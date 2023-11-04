@@ -1,0 +1,10 @@
+charset-normalizer
+rsa
+wheel
+setuptools
+s3transfer
+certifi
+pytz
+google-auth-oauthlib
+oauthlib
+numpy

@@ -1,0 +1,10 @@
+pyasn1
+pytz
+oauthlib
+urllib3
+typing-extensions
+wheel
+jmespath
+xlwt
+boto3
+packaging

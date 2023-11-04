@@ -1,0 +1,9 @@
+docutils
+jmespath
+matplotlib
+typing-extensions
+requests
+urllib3
+rsa
+pip
+charset-normalizer

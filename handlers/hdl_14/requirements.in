@@ -1,0 +1,5 @@
+awscli
+setuptools
+jmespath
+oauthlib
+typing-extensions

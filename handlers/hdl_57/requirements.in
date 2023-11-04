@@ -1,0 +1,8 @@
+packaging
+charset-normalizer
+numpy
+awscli
+docutils
+pyasn1
+idna
+python-dateutil

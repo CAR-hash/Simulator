@@ -1,0 +1,7 @@
+jmespath
+numpy
+packaging
+awscli
+pyasn1
+six
+setuptools

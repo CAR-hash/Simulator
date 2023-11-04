@@ -1,0 +1,10 @@
+numpy
+requests
+jmespath
+packaging
+idna
+charset-normalizer
+pyasn1-modules
+botocore
+matplotlib
+pytz

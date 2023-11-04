@@ -1,0 +1,7 @@
+matplotlib
+packaging
+pyasn1-modules
+awscli
+charset-normalizer
+certifi
+boto3

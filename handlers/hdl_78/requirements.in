@@ -1,0 +1,10 @@
+pip
+cachetools
+jmespath
+urllib3
+rsa
+numpy
+idna
+botocore
+requests
+packaging

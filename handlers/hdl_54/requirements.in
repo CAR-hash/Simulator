@@ -1,0 +1,6 @@
+boto3
+typing-extensions
+cachetools
+wheel
+requests
+awscli

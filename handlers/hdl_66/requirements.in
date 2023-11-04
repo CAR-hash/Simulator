@@ -1,0 +1,10 @@
+certifi
+s3transfer
+botocore
+pyasn1
+charset-normalizer
+typing-extensions
+xlwt
+six
+python-dateutil
+jmespath

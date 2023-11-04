@@ -1,0 +1,6 @@
+boto3
+awscli
+charset-normalizer
+packaging
+rsa
+botocore

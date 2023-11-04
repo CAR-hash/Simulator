@@ -1,0 +1,4 @@
+boto3
+pyasn1-modules
+certifi
+charset-normalizer

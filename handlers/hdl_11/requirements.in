@@ -1,0 +1,10 @@
+certifi
+typing-extensions
+packaging
+setuptools
+charset-normalizer
+numpy
+jmespath
+boto3
+cryptography
+botocore

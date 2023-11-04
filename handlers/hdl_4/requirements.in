@@ -1,0 +1,10 @@
+requests
+pyasn1-modules
+s3transfer
+cachetools
+six
+jmespath
+botocore
+boto3
+pyasn1
+google-auth-oauthlib

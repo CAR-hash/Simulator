@@ -1,0 +1,6 @@
+botocore
+setuptools
+six
+packaging
+requests
+wheel
