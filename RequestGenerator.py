@@ -33,9 +33,10 @@ class RequestThread(threading.Thread):
     def run(self) -> None:
         global turn_around_time_simul
         t0 = time.time()
-        requests.post(url="http://localhost:9020/runLambda/hdl_%d" % self.hdl_idx, json='{"hello":"world"}')
+        status = requests.post(url="http://localhost:9020/runLambda/hdl_%d" % self.hdl_idx,
+                               json='{"hello":"world"}').status_code
         t1 = time.time()
-        print("task %d finished" % self.hdl_idx)
+        print("task %d finished with %d " % (self.hdl_idx, status))
         turn_around_time_simul[self.hdl_idx] = t1 - t0
 
 
@@ -45,7 +46,7 @@ def generate_requests_simultanously(hdl_count):
         trd = RequestThread("%d" % i, i)
         trds.append(trd)
         print("task %d starts!" % i)
-        trd.run()
+        trd.start()
         time.sleep(0.1)
     while True:
         all_dead = True
@@ -60,4 +61,3 @@ def generate_requests_simultanously(hdl_count):
 
 if __name__ == '__main__':
     generate_requests_simultanously(hdl_count=100)
-    requests.post().status_code == 5
