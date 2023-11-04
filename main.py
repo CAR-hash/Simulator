@@ -9,7 +9,6 @@ import numpy as np
 import requests
 import json
 import matplotlib.pyplot as plt
-import google_api
 
 class PkgLRUCache(object):
     def __init__(self, capacity):
